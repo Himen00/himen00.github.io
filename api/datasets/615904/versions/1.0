@@ -1,6 +1,19 @@
 {
   "data": {
-    "queryParameters": {},
-    "signedUrls": []
+    "files": [
+      {
+        "dataFile": {
+          "id": 640866,
+          "filename": "video_shooting_Barbonville.zip",
+          "contentType": "application/zip",
+          "filesize": 227085082
+        }
+      }
+    ],
+    "metadataBlocks": {
+      "citation": {
+        "fields": []
+      }
+    }
   }
 }
