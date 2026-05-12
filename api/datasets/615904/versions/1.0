@@ -1,24 +1,1683 @@
 {
-  "data": {
-    "queryParameters": {
-      "fileid": "...",
-      "datasetid": "...",
-      "datasetversion": "...",
-      "siteUrl": "..."
-    },
-    "signedUrls": [
-      {
-        "name": "retrieveFileContents",
-        "signedUrl": "http://185.98.128.141:8000/test.zip"
-      },
-      {
-        "name": "downloadFile",
-        "signedUrl": "http://185.98.128.141:8000/test.zip"
-      },
-      {
-        "name": "getDatasetVersionMetadata",
-        "signedUrl": "https://185.98.128.141:8000/mock-metadata.json"
-      }
-    ]
-  }
+    "status": "OK",
+    "data": {
+        "id": 276424,
+        "datasetId": 615904,
+        "datasetPersistentId": "doi:10.57745/RKDTKY",
+        "storageIdentifier": "inrae://10.57745/RKDTKY",
+        "versionNumber": 1,
+        "versionMinorNumber": 0,
+        "versionState": "RELEASED",
+        "distributionDate": "2025-11-10",
+        "productionDate": "2025-11-10",
+        "lastUpdateTime": "2025-11-14T16:18:23Z",
+        "releaseTime": "2025-11-14T16:18:23Z",
+        "createTime": "2025-03-13T14:26:08Z",
+        "publicationDate": "2025-11-14",
+        "citationDate": "2025-11-14",
+        "license": {
+            "name": "etalab 2.0",
+            "uri": "https://spdx.org/licenses/etalab-2.0.html",
+            "iconUri": "https://entrepot.recherche.data.gouv.fr/assets/licence-ouverte.png"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "name": "citation",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Traceability of oak logs: Extension of the Biomtrace database for the study of extreme cases"
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Longuetaud, Fleur"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, AgroParisTech, INRAE, Silva, 54000 Nancy, France"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "fleur.longuetaud@inrae.fr"
+                                }
+                            },
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Jacquin, Philippe"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, AgroParisTech, INRAE, Silva, 54000 Nancy, France"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "philippe.jacquin@inrae.fr"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Longuetaud, Fleur"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, AgroParisTech, INRAE, Silva, 54000 Nancy, France"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-6570-2746"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Mothe, Frédéric"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, AgroParisTech, INRAE, Silva, 54000 Nancy, France"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-6570-4338"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Martinetto, Dorian"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, CNRS, LORIA, F-54000 Nancy, France; Université de Lorraine, AgroParisTech, INRAE, Silva, 54000 Nancy, France"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Ngo, Phuc"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, CNRS, LORIA, F-54000 Nancy, France"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0002-7423-5932"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Rittié, Daniel"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, AgroParisTech, INRAE, Silva, 54000 Nancy, France"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bordat, Frédéric"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, AgroParisTech, INRAE, Silva, 54000 Nancy, France"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Jacquin, Philippe"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, AgroParisTech, INRAE, Silva, 54000 Nancy, France"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Vuidel, Bruno"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ONF"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Piboule, Alexandre"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ONF"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-4726-5455"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Debled-Rennesson, Isabelle"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Université de Lorraine, CNRS, LORIA, F-54000 Nancy, France"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0001-5118-7440"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Albert, Aymeric"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ONF"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Richter, Claudine"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ONF"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "producer",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "producerName": {
+                                    "typeName": "producerName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Institut national de recherche pour l’agriculture, l’alimentation et l’environnement"
+                                },
+                                "producerAbbreviation": {
+                                    "typeName": "producerAbbreviation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "INRAE"
+                                },
+                                "producerURL": {
+                                    "typeName": "producerURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.inrae.fr/"
+                                },
+                                "producerLogoURL": {
+                                    "typeName": "producerLogoURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.inrae.fr/themes/custom/inrae_socle/logo.svg"
+                                }
+                            },
+                            {
+                                "producerName": {
+                                    "typeName": "producerName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Office national des forêts"
+                                },
+                                "producerAbbreviation": {
+                                    "typeName": "producerAbbreviation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ONF"
+                                },
+                                "producerURL": {
+                                    "typeName": "producerURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://www.onf.fr/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-11-10"
+                    },
+                    {
+                        "typeName": "productionPlace",
+                        "multiple": true,
+                        "typeClass": "primitive",
+                        "value": [
+                            "France"
+                        ]
+                    },
+                    {
+                        "typeName": "distributor",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "distributorName": {
+                                    "typeName": "distributorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Entrepôt-Catalogue Recherche Data Gouv"
+                                },
+                                "distributorURL": {
+                                    "typeName": "distributorURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://entrepot.recherche.data.gouv.fr"
+                                },
+                                "distributorLogoURL": {
+                                    "typeName": "distributorLogoURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://s3.fr-par.scw.cloud/rdg-portal/logos-macarons/Macarons%20Recherche%20Data%20Gouv_Entrep%C3%B4t.png"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-11-10"
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Les exigences en termes de traçabilité du bois sont de plus en plus fortes. Dans le but de lutter contre le commerce illégal du bois des labels et des réglementations sont mis en place qui nécessitent des méthodes de traçabilité performantes et des contrôles associés. \n<br>Le chêne est une ressource stratégique en France. Le projet Biomtrace a pour objectif de développer une méthode de traçabilité biométrique des grumes de chêne, basée sur des caractéristiques intrinsèques aux grumes visibles sur des photos de leur extrémité inférieure. Plusieurs approches algorithmiques devront être envisagées dont celles issues du domaine de l’intelligence artificielle (IA). Les approches d'IA, et plus spécifiquement les réseaux de neurones convolutifs (CNNs) et les Vision Transformers (ViTs) dans notre cas, nécessitent des bases de données conséquentes. \n<br>Ce dépôt correspond à une extension de la base d'images Biomtrace constituée et utilisée dans le cadre du projet Biomtrace. Cette extension, appelée Biomtrace_extension, a pour but d'étudier la sensibilité et la robustesse des algorithmes dans certains cas limites identifiés : reconnaissance des grumes (i) entre avant et après débardage, (ii) quand les photos sont prises en modifiant l'angle de prise de vue et la distance à la grume, et (iii) en cas de purge de l'extrémité de la grume entre les deux prises de photos."
+                                },
+                                "dsDescriptionLanguage": {
+                                    "typeName": "dsDescriptionLanguage",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "French"
+                                }
+                            },
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "<br>The requirements in terms of timber traceability are becoming increasingly stringent. In order to combat the illegal timber trade, labels and regulations are being introduced that require effective traceability methods and associated controls. \n<br>Oak is a strategic resource in France. The aim of the Biomtrace project is to develop a biometric traceability method for oak logs, based on intrinsic characteristics of the logs visible on photos of their lower end. Several algorithmic approaches will need to be considered, including those from the field of artificial intelligence (AI). AI approaches, and more specifically Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) in our case, require large databases. \n<br>This repository is an extension of the Biomtrace image database created and used as part of the Biomtrace project. The aim of this extension, named Biomtrace_extension, is to study the sensitivity and robustness of the algorithms in certain identified extreme cases: Recognition of the logs (i) before and after log extraction, (ii) when the photos are taken by changing the angle of the shot and the distance to the log, and (iii) if the end of the log is trimmed between the two photo sessions."
+                                },
+                                "dsDescriptionLanguage": {
+                                    "typeName": "dsDescriptionLanguage",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "English"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "language",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "English"
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Agricultural Sciences",
+                            "Computer and Information Science"
+                        ]
+                    },
+                    {
+                        "typeName": "keyword",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "image analysis"
+                                },
+                                "keywordTermURL": {
+                                    "typeName": "keywordTermURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://opendata.inrae.fr/thesaurusINRAE/c_15634",
+                                    "expandedvalue": {
+                                        "@id": "http://opendata.inrae.fr/thesaurusINRAE/c_15634",
+                                        "termName": {
+                                            "en": "image analysis",
+                                            "fr": "analyse d'image"
+                                        },
+                                        "vocabularyUri": "https://data.agroportal.lirmm.fr/ontologies/INRAETHES",
+                                        "synonyms": []
+                                    }
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "INRAETHES"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://opendata.inrae.fr/thesaurusINRAE/thesaurusINRAE"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "oak"
+                                },
+                                "keywordTermURL": {
+                                    "typeName": "keywordTermURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://opendata.inra.fr/anaeeThes/c_1438873193144",
+                                    "expandedvalue": {
+                                        "@id": "http://opendata.inra.fr/anaeeThes/c_1438873193144",
+                                        "termName": {
+                                            "en": "oak",
+                                            "fr": "chêne"
+                                        },
+                                        "vocabularyUri": "https://data.agroportal.lirmm.fr/ontologies/ANAEETHES",
+                                        "synonyms": []
+                                    }
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ANAEETHES"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://opendata.inra.fr/anaeeThes/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "segmentation"
+                                },
+                                "keywordTermURL": {
+                                    "typeName": "keywordTermURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://opendata.inrae.fr/PO2/Ontology/TransformON/c_PfssVBBP",
+                                    "expandedvalue": {
+                                        "@id": "http://opendata.inrae.fr/PO2/Ontology/TransformON/c_PfssVBBP",
+                                        "termName": {
+                                            "en": "segmentation",
+                                            "fr": "segmentation"
+                                        },
+                                        "vocabularyUri": "https://data.agroportal.lirmm.fr/ontologies/TRANSFORMON",
+                                        "synonyms": []
+                                    }
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "TRANSFORMON"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://www.w3.org/2006/time#"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "wood"
+                                },
+                                "keywordTermURL": {
+                                    "typeName": "keywordTermURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://opendata.inra.fr/anaeeThes/c2_2755",
+                                    "expandedvalue": {
+                                        "@id": "http://opendata.inra.fr/anaeeThes/c2_2755",
+                                        "termName": {
+                                            "fr": "bois",
+                                            "en": "wood"
+                                        },
+                                        "vocabularyUri": "https://data.agroportal.lirmm.fr/ontologies/ANAEETHES",
+                                        "synonyms": []
+                                    }
+                                },
+                                "keywordVocabulary": {
+                                    "typeName": "keywordVocabulary",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ANAEETHES"
+                                },
+                                "keywordVocabularyURI": {
+                                    "typeName": "keywordVocabularyURI",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "http://opendata.inra.fr/anaeeThes/"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "biometric traceability"
+                                }
+                            },
+                            {
+                                "keywordValue": {
+                                    "typeName": "keywordValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "recognition"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "topicClassification",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "image analysis"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "image analysis"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "image segmentation"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "image segmentation"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "artificial intelligence"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "artificial intelligence"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "traceability"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "tracing"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "oak"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Quercus"
+                                }
+                            },
+                            {
+                                "topicClassValue": {
+                                    "typeName": "topicClassValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "wood"
+                                },
+                                "topicClassVocab": {
+                                    "typeName": "topicClassVocab",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "wood quality"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "kindOfData",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Dataset",
+                            "Image"
+                        ]
+                    },
+                    {
+                        "typeName": "dataOrigin",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "observational data",
+                            "experimental data"
+                        ]
+                    },
+                    {
+                        "typeName": "software",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "softwareName": {
+                                    "typeName": "softwareName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "R"
+                                },
+                                "softwareVersion": {
+                                    "typeName": "softwareVersion",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "4.3.1"
+                                }
+                            },
+                            {
+                                "softwareName": {
+                                    "typeName": "softwareName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gimp"
+                                },
+                                "softwareVersion": {
+                                    "typeName": "softwareVersion",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2.10.22"
+                                }
+                            },
+                            {
+                                "softwareName": {
+                                    "typeName": "softwareName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ImageJ"
+                                },
+                                "softwareVersion": {
+                                    "typeName": "softwareVersion",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "1.53e"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "publication",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementTo"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fleur Longuetaud, Frédéric Mothe, Dorian Martinetto, Phuc Ngo, Alexandre Piboule, Daniel Rittié, Frédéric Bordat, Philippe Jacquin, Isabelle Debled-Rennesson, Aymeric Albert & Claudine Richter (2025). Traceability of oak (Quercus petraea (Matt.) Liebl. and Quercus robur L.) logs: the Biomtrace database. Annals of Forest Science, 82 (1), pp.5. https://doi.org/10.1186/s13595-025-01276-9."
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "10.1186/s13595-025-01276-9"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.1186/s13595-025-01276-9"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsCitedBy"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fleur Longuetaud, Frédéric Mothe, Dorian Martinetto, Phuc Ngo, Daniel Rittié, Frédéric Bordat, Philippe Jacquin, Bruno Vuidel, Alexandre Piboule, Isabelle Debled-Rennesson, Aymeric Albert & Claudine Richter (2026). Traceability of oak (Quercus petraea (Matt.) Liebl. and Quercus robur L.) logs: Extension of the Biomtrace database for the study of extreme cases. Submitted in Annals of Forest Science."
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementTo"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dorian Martinetto, Georg Wimmer, Phuc Ngo, Frédéric Mothe, Alexandre Piboule, Andreas Uhl, Isabelle Debled-Rennesson & Fleur Longuetaud (2025). A new approach to biometric wood log traceability combining traditional methods and deep learning. Smart Agricultural Technology, 10, 100686. https://doi.org/10.1016/j.atech.2024.100686."
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "10.1016/j.atech.2024.100686"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.1016/j.atech.2024.100686"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsCitedBy"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dorian Martinetto, Georg Wimmer, Phuc Ngo, Frédéric Mothe, Alexandre Piboule, Andreas Uhl, Isabelle Debled-Rennesson & Fleur Longuetaud (2025). A Benchmark of Neural Networks for Semantic Segmentation of Wood Log Ends. IEEE Access, 13, pp.180344-180354. https://doi.org/10.1109/ACCESS.2025.3622419"
+                                },
+                                "publicationIDType": {
+                                    "typeName": "publicationIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "publicationIDNumber": {
+                                    "typeName": "publicationIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "10.1109/ACCESS.2025.3622419"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.1109/ACCESS.2025.3622419"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsCitedBy"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fleur Longuetaud, Frédéric Mothe, Philippe Jacquin, Daniel Rittié, Frédéric Bordat, Phuc Ngo, Dorian Martinetto, Hugo Rositi, Isabelle Debled-Rennesson, Alexandre Piboule, Bruno Vuidel, Christophe Ginet, Aymeric Albert & Claudine Richter (2025). Biomtrace : Développement de méthodes BIOMétriques pour l'identification et la TRACabilitE des grumes de chêne. Rapport final de la tranche 2. INRAE; Université de Lorraine; ONF. https://hal.science/hal-05221844v2"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://hal.science/hal-05221844v2"
+                                }
+                            },
+                            {
+                                "publicationRelationType": {
+                                    "typeName": "publicationRelationType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "IsSupplementTo"
+                                },
+                                "publicationCitation": {
+                                    "typeName": "publicationCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fleur Longuetaud, Frédéric Mothe, Philippe Jacquin, Daniel Rittié, Frédéric Bordat, Phuc Ngo, Dorian Martinetto, Isabelle Debled-Rennesson, Alexandre Piboule, Christophe Ginet, Aymeric Albert & Claudine Richter (2024). Biomtrace : développement de méthodes BIOMétriques pour l'identification et la TRACabilitE des grumes de chêne. Rapport final de la tranche 1. INRAE; ONF; Université de Lorraine. https://hal.science/hal-04822724v1"
+                                },
+                                "publicationURL": {
+                                    "typeName": "publicationURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://hal.science/hal-04822724v1"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "relatedDataset",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "relatedDatasetCitation": {
+                                    "typeName": "relatedDatasetCitation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Longuetaud, Fleur; Mothe, Frédéric; Martinetto, Dorian; Ngo, Phuc; Piboule, Alexandre; Rittié, Daniel; Bordat, Frédéric; Jacquin, Philippe; Debled-Rennesson, Isabelle; Albert, Aymeric; Richter, Claudine, 2024, \"Traceability of oak logs: The Biomtrace database\", https://doi.org/10.57745/9DBCL4, Recherche Data Gouv, V2"
+                                },
+                                "relatedDatasetIDType": {
+                                    "typeName": "relatedDatasetIDType",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "doi"
+                                },
+                                "relatedDatasetIDNumber": {
+                                    "typeName": "relatedDatasetIDNumber",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "10.57745/9DBCL4"
+                                },
+                                "relatedDatasetURL": {
+                                    "typeName": "relatedDatasetURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://doi.org/10.57745/9DBCL4"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "grantNumber",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "grantNumberAgency": {
+                                    "typeName": "grantNumberAgency",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "France Bois Forêt"
+                                },
+                                "grantNumberValue": {
+                                    "typeName": "grantNumberValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "23/RD/1698"
+                                }
+                            },
+                            {
+                                "grantNumberAgency": {
+                                    "typeName": "grantNumberAgency",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "France Bois Forêt"
+                                },
+                                "grantNumberValue": {
+                                    "typeName": "grantNumberValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "24/RD/1868"
+                                }
+                            },
+                            {
+                                "grantNumberAgency": {
+                                    "typeName": "grantNumberAgency",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ADEME"
+                                },
+                                "grantNumberValue": {
+                                    "typeName": "grantNumberValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "24ESD0544"
+                                }
+                            },
+                            {
+                                "grantNumberAgency": {
+                                    "typeName": "grantNumberAgency",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Région Grand Est"
+                                },
+                                "grantNumberValue": {
+                                    "typeName": "grantNumberValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "24-DOC-112"
+                                }
+                            },
+                            {
+                                "grantNumberAgency": {
+                                    "typeName": "grantNumberAgency",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ARTEMIS (LUE)"
+                                },
+                                "grantNumberValue": {
+                                    "typeName": "grantNumberValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ANR-15-IDEX-04-LUE"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "project",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "projectAcronym": {
+                                    "typeName": "projectAcronym",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Biomtrace"
+                                },
+                                "projectTitle": {
+                                    "typeName": "projectTitle",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Développement de méthodes BIOMétriques pour l'identification et la TRACabilitE des grumes de chêne"
+                                },
+                                "projectURL": {
+                                    "typeName": "projectURL",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "https://silva.nancy.hub.inrae.fr/equipes-de-recherche/agis/projets-recherches/biomtrace"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dateOfCollection",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dateOfCollectionStart": {
+                                    "typeName": "dateOfCollectionStart",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-10-01"
+                                },
+                                "dateOfCollectionEnd": {
+                                    "typeName": "dateOfCollectionEnd",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2025-06-30"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Longuetaud, Fleur"
+                    },
+                    {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-11-10"
+                    }
+                ]
+            },
+            "geospatial": {
+                "displayName": "Geospatial Metadata",
+                "name": "geospatial",
+                "fields": [
+                    {
+                        "typeName": "geographicCoverage",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "country": {
+                                    "typeName": "country",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "France"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "geographicBoundingBox",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "westLongitude": {
+                                    "typeName": "westLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "5.98"
+                                },
+                                "eastLongitude": {
+                                    "typeName": "eastLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "6.94"
+                                },
+                                "northLongitude": {
+                                    "typeName": "northLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "49.05"
+                                },
+                                "southLongitude": {
+                                    "typeName": "southLongitude",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "48.53"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "files": [
+            {
+                "label": "automatic.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/segmentation/cross_sections/segmentation_masks",
+                "version": 2,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 658321,
+                    "persistentId": "doi:10.57745/MNYOG6",
+                    "pidURL": "https://doi.org/10.57745/MNYOG6",
+                    "filename": "automatic.zip",
+                    "contentType": "application/zip",
+                    "filesize": 255463232,
+                    "storageIdentifier": "inrae://prod-datainra:19a112e6f6b-bd43b2186e4a",
+                    "rootDataFileId": -1,
+                    "md5": "4f0cc81d34d11640ece36bf39d6752e0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "4f0cc81d34d11640ece36bf39d6752e0"
+                    },
+                    "creationDate": "2025-10-23"
+                }
+            },
+            {
+                "label": "database_images_extension.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/tables",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 663318,
+                    "persistentId": "doi:10.57745/TO9LM1",
+                    "pidURL": "https://doi.org/10.57745/TO9LM1",
+                    "filename": "database_images_extension.txt",
+                    "contentType": "text/plain",
+                    "filesize": 2578350,
+                    "storageIdentifier": "inrae://prod-datainra:19a589f05d1-0c02345ff587",
+                    "rootDataFileId": -1,
+                    "md5": "c2fba08bf876485dab26aadf562d0ab0",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "c2fba08bf876485dab26aadf562d0ab0"
+                    },
+                    "creationDate": "2025-11-06"
+                }
+            },
+            {
+                "label": "database_images_extension_variables.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/tables",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 665497,
+                    "persistentId": "doi:10.57745/ROUENL",
+                    "pidURL": "https://doi.org/10.57745/ROUENL",
+                    "filename": "database_images_extension_variables.txt",
+                    "contentType": "text/plain",
+                    "filesize": 2457,
+                    "storageIdentifier": "inrae://prod-datainra:19a7ce31199-8ba407ef974c",
+                    "rootDataFileId": -1,
+                    "md5": "ad2491d2583300f3aa60090acc17b21c",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ad2491d2583300f3aa60090acc17b21c"
+                    },
+                    "creationDate": "2025-11-13"
+                }
+            },
+            {
+                "label": "database_sites_extension.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/tables",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 663319,
+                    "persistentId": "doi:10.57745/DRAQPX",
+                    "pidURL": "https://doi.org/10.57745/DRAQPX",
+                    "filename": "database_sites_extension.txt",
+                    "contentType": "text/plain",
+                    "filesize": 2827,
+                    "storageIdentifier": "inrae://prod-datainra:19a589f8383-b35f1d9063e3",
+                    "rootDataFileId": -1,
+                    "md5": "7bb85bb065aacc1136217e38bee9946f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7bb85bb065aacc1136217e38bee9946f"
+                    },
+                    "creationDate": "2025-11-06"
+                }
+            },
+            {
+                "label": "database_sites_extension_variables.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/tables",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 641162,
+                    "persistentId": "doi:10.57745/JS2XPB",
+                    "pidURL": "https://doi.org/10.57745/JS2XPB",
+                    "filename": "database_sites_extension_variables.txt",
+                    "contentType": "text/plain",
+                    "filesize": 2253,
+                    "storageIdentifier": "inrae://prod-datainra:1989e4c16d9-2fd6a1e8ac06",
+                    "rootDataFileId": -1,
+                    "md5": "2bd92c72a8964f1d03242fcc79ecd9e7",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "2bd92c72a8964f1d03242fcc79ecd9e7"
+                    },
+                    "creationDate": "2025-08-12"
+                }
+            },
+            {
+                "label": "image_search_database_5830.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/tables",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 641145,
+                    "persistentId": "doi:10.57745/FNQXC2",
+                    "pidURL": "https://doi.org/10.57745/FNQXC2",
+                    "filename": "image_search_database_5830.txt",
+                    "contentType": "text/plain",
+                    "filesize": 144605,
+                    "storageIdentifier": "inrae://prod-datainra:1989d3d0a4c-86aa08fdf3a3",
+                    "rootDataFileId": -1,
+                    "md5": "18bcaaedaf6a6605451dd9a6dcdf02ab",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "18bcaaedaf6a6605451dd9a6dcdf02ab"
+                    },
+                    "creationDate": "2025-08-12"
+                }
+            },
+            {
+                "label": "learning_set_article_benchmark_1195.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/tables",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 616013,
+                    "persistentId": "doi:10.57745/XAVRMW",
+                    "pidURL": "https://doi.org/10.57745/XAVRMW",
+                    "filename": "learning_set_article_benchmark_1195.txt",
+                    "contentType": "text/plain",
+                    "filesize": 30029,
+                    "storageIdentifier": "inrae://prod-datainra:19598933781-1b7922211cde",
+                    "rootDataFileId": -1,
+                    "md5": "28bdb62a3f58f47752bf64c6c3dcfb6d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "28bdb62a3f58f47752bf64c6c3dcfb6d"
+                    },
+                    "creationDate": "2025-03-15"
+                }
+            },
+            {
+                "label": "log_extraction_before_after.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/error_cases_traceability",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 640873,
+                    "persistentId": "doi:10.57745/BID7KB",
+                    "pidURL": "https://doi.org/10.57745/BID7KB",
+                    "filename": "log_extraction_before_after.zip",
+                    "contentType": "application/zip",
+                    "filesize": 2821680327,
+                    "storageIdentifier": "inrae://prod-datainra:1989950f453-6acbef59ed5a",
+                    "rootDataFileId": -1,
+                    "md5": "fb3902de246dea627245605ffc94556f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "fb3902de246dea627245605ffc94556f"
+                    },
+                    "creationDate": "2025-08-11"
+                }
+            },
+            {
+                "label": "log_extraction_before_after.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/color_images",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 640851,
+                    "persistentId": "doi:10.57745/IFEEVC",
+                    "pidURL": "https://doi.org/10.57745/IFEEVC",
+                    "filename": "log_extraction_before_after.zip",
+                    "contentType": "application/zip",
+                    "filesize": 24495221283,
+                    "storageIdentifier": "inrae://prod-datainra:1989830a624-5d8ab5906286",
+                    "rootDataFileId": -1,
+                    "md5": "ebf55bd526a232d2dd0943250192eaae",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "ebf55bd526a232d2dd0943250192eaae"
+                    },
+                    "creationDate": "2025-08-11"
+                }
+            },
+            {
+                "label": "logs_SIA_2025.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/color_images",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 640852,
+                    "persistentId": "doi:10.57745/MNXSGY",
+                    "pidURL": "https://doi.org/10.57745/MNXSGY",
+                    "filename": "logs_SIA_2025.zip",
+                    "contentType": "application/zip",
+                    "filesize": 152024750,
+                    "storageIdentifier": "inrae://prod-datainra:1989853c967-d3637a25e6a9",
+                    "rootDataFileId": -1,
+                    "md5": "797e9a541a3b688d07685506336ce12d",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "797e9a541a3b688d07685506336ce12d"
+                    },
+                    "creationDate": "2025-08-11"
+                }
+            },
+            {
+                "label": "manual.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/segmentation/cracks/segmentation_masks",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 663317,
+                    "persistentId": "doi:10.57745/RQE3CV",
+                    "pidURL": "https://doi.org/10.57745/RQE3CV",
+                    "filename": "manual.zip",
+                    "contentType": "application/zip",
+                    "filesize": 1629797,
+                    "storageIdentifier": "inrae://prod-datainra:19a588f2a3c-708e1b20cf44",
+                    "rootDataFileId": -1,
+                    "md5": "b9e0dd8534ff3fd4d60dcf271573f26f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b9e0dd8534ff3fd4d60dcf271573f26f"
+                    },
+                    "creationDate": "2025-11-06"
+                }
+            },
+            {
+                "label": "manual.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/segmentation/cross_sections/segmentation_masks",
+                "version": 2,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 640870,
+                    "persistentId": "doi:10.57745/ZDG2U5",
+                    "pidURL": "https://doi.org/10.57745/ZDG2U5",
+                    "filename": "manual.zip",
+                    "contentType": "application/zip",
+                    "filesize": 34913234,
+                    "storageIdentifier": "inrae://prod-datainra:19898cf2946-d28604889576",
+                    "rootDataFileId": -1,
+                    "md5": "50882711ea5ec1eaa8c8f61e149e2d77",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "50882711ea5ec1eaa8c8f61e149e2d77"
+                    },
+                    "creationDate": "2025-08-11"
+                }
+            },
+            {
+                "label": "readme.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 665595,
+                    "persistentId": "doi:10.57745/5D8PHM",
+                    "pidURL": "https://doi.org/10.57745/5D8PHM",
+                    "filename": "readme.txt",
+                    "contentType": "text/plain",
+                    "filesize": 2215,
+                    "storageIdentifier": "inrae://prod-datainra:19a8299b12b-e298df5dc6ac",
+                    "rootDataFileId": -1,
+                    "md5": "b29c316c64b4dbc12a559d0488f4fa80",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "b29c316c64b4dbc12a559d0488f4fa80"
+                    },
+                    "creationDate": "2025-11-14"
+                }
+            },
+            {
+                "label": "segmentation_experiment_datasets.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/segmentation/cross_sections",
+                "version": 2,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 663316,
+                    "persistentId": "doi:10.57745/TIQRCJ",
+                    "pidURL": "https://doi.org/10.57745/TIQRCJ",
+                    "filename": "segmentation_experiment_datasets.zip",
+                    "contentType": "application/zip",
+                    "filesize": 10658054689,
+                    "storageIdentifier": "inrae://prod-datainra:19a58709fee-0f94698b414d",
+                    "rootDataFileId": -1,
+                    "md5": "45c29324c5a7cf42f5b6c491eb93c7fd",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "45c29324c5a7cf42f5b6c491eb93c7fd"
+                    },
+                    "creationDate": "2025-11-06"
+                }
+            },
+            {
+                "label": "shooting_angles_distances.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/error_cases_traceability",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 640875,
+                    "persistentId": "doi:10.57745/HYNXU3",
+                    "pidURL": "https://doi.org/10.57745/HYNXU3",
+                    "filename": "shooting_angles_distances.zip",
+                    "contentType": "application/zip",
+                    "filesize": 62681776,
+                    "storageIdentifier": "inrae://prod-datainra:198995751a5-663aeeddc3c7",
+                    "rootDataFileId": -1,
+                    "md5": "0dc0fe6df81acae9550838036ce6f9ea",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "0dc0fe6df81acae9550838036ce6f9ea"
+                    },
+                    "creationDate": "2025-08-11"
+                }
+            },
+            {
+                "label": "shooting_angles_distances.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/color_images",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 640865,
+                    "persistentId": "doi:10.57745/J8PGVV",
+                    "pidURL": "https://doi.org/10.57745/J8PGVV",
+                    "filename": "shooting_angles_distances.zip",
+                    "contentType": "application/zip",
+                    "filesize": 14631463514,
+                    "storageIdentifier": "inrae://prod-datainra:198985f9ded-6d32eaf8eab0",
+                    "rootDataFileId": -1,
+                    "md5": "566d446aa5a43c0a56f3c44abce096d9",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "566d446aa5a43c0a56f3c44abce096d9"
+                    },
+                    "creationDate": "2025-08-11"
+                }
+            },
+            {
+                "label": "test_set_1_article_benchmark_150.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/tables",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 616014,
+                    "persistentId": "doi:10.57745/FHRZX4",
+                    "pidURL": "https://doi.org/10.57745/FHRZX4",
+                    "filename": "test_set_1_article_benchmark_150.txt",
+                    "contentType": "text/plain",
+                    "filesize": 3705,
+                    "storageIdentifier": "inrae://prod-datainra:1959893af52-2460d05581f9",
+                    "rootDataFileId": -1,
+                    "md5": "515c3025f49e3dc019326dd60a58121b",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "515c3025f49e3dc019326dd60a58121b"
+                    },
+                    "creationDate": "2025-03-15"
+                }
+            },
+            {
+                "label": "test_set_2_benchmark_52.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/tables",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 616015,
+                    "persistentId": "doi:10.57745/1ULAPY",
+                    "pidURL": "https://doi.org/10.57745/1ULAPY",
+                    "filename": "test_set_2_benchmark_52.txt",
+                    "contentType": "text/plain",
+                    "filesize": 1324,
+                    "storageIdentifier": "inrae://prod-datainra:19598941326-12fb1b835ec4",
+                    "rootDataFileId": -1,
+                    "md5": "7aa66b2f0e8e176b707ee2052c0f625f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "7aa66b2f0e8e176b707ee2052c0f625f"
+                    },
+                    "creationDate": "2025-03-15"
+                }
+            },
+            {
+                "label": "test_set_3_benchmark_140.txt",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/tables",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 616016,
+                    "persistentId": "doi:10.57745/7F1JBF",
+                    "pidURL": "https://doi.org/10.57745/7F1JBF",
+                    "filename": "test_set_3_benchmark_140.txt",
+                    "contentType": "text/plain",
+                    "filesize": 3357,
+                    "storageIdentifier": "inrae://prod-datainra:19598949370-2cbe28ec746b",
+                    "rootDataFileId": -1,
+                    "md5": "5703c3b539b7e67823ce7db58b8cf92f",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "5703c3b539b7e67823ce7db58b8cf92f"
+                    },
+                    "creationDate": "2025-03-15"
+                }
+            },
+            {
+                "label": "trimming_before_after.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/error_cases_traceability",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 663315,
+                    "persistentId": "doi:10.57745/JVNUJ5",
+                    "pidURL": "https://doi.org/10.57745/JVNUJ5",
+                    "filename": "trimming_before_after.zip",
+                    "contentType": "application/zip",
+                    "filesize": 1008343237,
+                    "storageIdentifier": "inrae://prod-datainra:19a5861de47-cb6daacd2861",
+                    "rootDataFileId": -1,
+                    "md5": "8afeac2455b3262bc6b78574aedcfcac",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "8afeac2455b3262bc6b78574aedcfcac"
+                    },
+                    "creationDate": "2025-11-06"
+                }
+            },
+            {
+                "label": "trimming_before_after.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/color_images",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 663312,
+                    "persistentId": "doi:10.57745/HVX25W",
+                    "pidURL": "https://doi.org/10.57745/HVX25W",
+                    "filename": "trimming_before_after.zip",
+                    "contentType": "application/zip",
+                    "filesize": 2655545063,
+                    "storageIdentifier": "inrae://prod-datainra:19a584ed2e5-43a0ecc2ccaa",
+                    "rootDataFileId": -1,
+                    "md5": "abf55aa094d022f39058ea4078da8fcb",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "abf55aa094d022f39058ea4078da8fcb"
+                    },
+                    "creationDate": "2025-11-06"
+                }
+            },
+            {
+                "label": "video_shooting_Barbonville.zip",
+                "restricted": false,
+                "directoryLabel": "Biomtrace_extension/color_images",
+                "version": 1,
+                "datasetVersionId": 276424,
+                "dataFile": {
+                    "id": 640866,
+                    "persistentId": "doi:10.57745/8TD7IJ",
+                    "pidURL": "https://doi.org/10.57745/8TD7IJ",
+                    "filename": "video_shooting_Barbonville.zip",
+                    "contentType": "application/zip",
+                    "filesize": 227085082,
+                    "storageIdentifier": "inrae://prod-datainra:1989881b270-2f7b60b98725",
+                    "rootDataFileId": -1,
+                    "md5": "3399611ce04d0558b829bee25081534e",
+                    "checksum": {
+                        "type": "MD5",
+                        "value": "3399611ce04d0558b829bee25081534e"
+                    },
+                    "creationDate": "2025-08-11"
+                }
+            }
+        ]
+    }
 }
