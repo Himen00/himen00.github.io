@@ -9,15 +9,15 @@
     "signedUrls": [
       {
         "name": "retrieveFileContents",
-        "signedUrl": "http://.../test.zip"
+        "signedUrl": "http://185.98.128.141:8000/test.zip"
       },
       {
         "name": "downloadFile",
-        "signedUrl": "http://.../test.zip"
+        "signedUrl": "http://185.98.128.141:8000/test.zip"
       },
       {
         "name": "getDatasetVersionMetadata",
-        "signedUrl": "https://TON_SITE/mock-metadata.json"
+        "signedUrl": "https://185.98.128.141:8000/mock-metadata.json"
       }
     ]
   }
