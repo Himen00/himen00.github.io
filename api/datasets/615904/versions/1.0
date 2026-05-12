@@ -1,19 +1,26 @@
 {
   "data": {
-    "files": [
+    "queryParameters": {
+      "fileid": "640875",
+      "datasetid": "615904",
+      "datasetversion": "1.0",
+      "siteUrl": "https://himen00.github.io",
+      "preview": "true",
+      "locale": "fr"
+    },
+    "signedUrls": [
       {
-        "dataFile": {
-          "id": 640866,
-          "filename": "video_shooting_Barbonville.zip",
-          "contentType": "application/zip",
-          "filesize": 227085082
-        }
+        "name": "retrieveFileContents",
+        "signedUrl": "http://185.98.128.141:8000/test.zip"
+      },
+      {
+        "name": "downloadFile",
+        "signedUrl": "http://185.98.128.141:8000/test.zip"
+      },
+      {
+        "name": "getDatasetVersionMetadata",
+        "signedUrl": "https://himen00.github.io/mock-metadata.json"
       }
-    ],
-    "metadataBlocks": {
-      "citation": {
-        "fields": []
-      }
-    }
+    ]
   }
 }
